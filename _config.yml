@@ -1,0 +1,26 @@
+# Site settings
+title: ""
+description: > 
+  Raghav Toshniwal
+
+author: Raghav Toshniwal
+email: raghav.toshniwal@gmail.com
+twitter_username: raghavtosh
+github_username: traghav
+
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://raghav.cc" # the base hostname & protocol for your site
+
+google_analytics_id: UA-1111111111-1
+disqus_id:
+
+# Build settings
+include: [_pages]
+markdown: kramdown
+permalink: /:title
+
+sass:
+    style: compressed
+
+exclude: [vendor]
+
