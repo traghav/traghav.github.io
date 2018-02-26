@@ -2,4 +2,22 @@
 pages:
 - _pages/zx.md
 hide_body: false
-fields: []
+fields:
+- type: select
+  name: layout
+  config:
+    source:
+      type: simple
+    options:
+    - content
+    - post
+  label: Layout
+- type: text
+  label: title
+  name: title
+- type: text
+  name: permalink
+  label: permalink
+  description: Make sure to start with /
+  config:
+    required: true
