@@ -7,6 +7,16 @@ permalink: "/publicbloomfilters"
 twitter_text: Public Bloom Filters
 undefined: ''
 ---
-# Public Bloom Filters
-
 ## What are Bloom Filters?
+
+## Cheap Hash Functions
+
+A persistent requirement for Bloom Filter
+Enter Fowler–Noll–Vo hash functions. 
+
+## Limits of this approach
+
+## Wait, but why?
+
+### Half hearted Blockchains
+
