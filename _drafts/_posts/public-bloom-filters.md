@@ -1,4 +1,12 @@
 ---
 title: Public Bloom Filters
-date: 2018-02-27 00:00:00 +0000
+date: 2017-09-20 18:53:06 +0530
+layout: post
+description: Managed Bloom Filters
+permalink: "/publicbloomfilters"
+twitter_text: Public Bloom Filters
+undefined: ''
 ---
+# Public Bloom Filters
+
+## What are Bloom Filters?
