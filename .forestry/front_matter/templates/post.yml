@@ -1,0 +1,34 @@
+---
+hide_body: false
+fields:
+- type: text
+  name: title
+  label: title
+  config:
+    required: true
+- type: datetime
+  name: date
+  label: date
+  config:
+    date_format: YYYY-MM-DD
+    required: true
+- type: select
+  name: layout
+  config:
+    source:
+      type: simple
+    options:
+    - post
+    - content
+  label: layout
+- type: text
+- type: textarea
+  name: description
+  label: description
+- type: text
+  name: twitter_text
+  label: twitter_text
+- type: text
+  name: permalink
+  label: permalink
+  description: begin with /

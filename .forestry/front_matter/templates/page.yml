@@ -1,6 +1,4 @@
 ---
-pages:
-- xenia.md
 hide_body: false
 fields:
 - type: select
