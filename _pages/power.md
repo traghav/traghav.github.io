@@ -3,8 +3,7 @@ layout: content
 title: "⚡"
 permalink: "/power/"
 ---
-This website is powered by Jekyll, a static site generator.
 
-Forestry.io solves a problem I neved had.
+# Jekyll
 
-It is being served using Github Pages.
+This website uses [Jekyll](http://jekyll.rb), a static site generator. 
