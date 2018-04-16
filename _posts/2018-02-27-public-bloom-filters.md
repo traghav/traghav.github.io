@@ -15,10 +15,67 @@ For the adventurous, here is a hand crafted [explanation](http://splasho.com/upg
 
 ## Why Public Bloom Filters?
 
-So public bloom filters are exactly like regular bloom filters, aside from the fact that they are shared. For instance multiple entities can look-up if something is part of a bigger set.
+So Public Bloom Filters are exactly like regular bloom filters, aside from the fact that they are shared. For instance multiple entities can look-up if something is part of a bigger set.
 
 There are a few good reasons to offer a Public Bloom Filter as a service. One application could be ensuring unique usernames across multiple services while ensuring a relatively high degree of anonymity.  If you claim a username on a platform that uses a Public Bloom Filter, you stake your claim on the username for every other platform that uses the same Public Bloom Filter.
 
-Another use could be maintaining a public list of really common or bad passwords and doing a quick lookup to ensure a user does not set it as their own password.
+Another use could be maintaining a public list of really common or bad passwords and doing a quick lookup to ensure a user does not set it as their own password. To be fair, this service [already exists](). Offered by none other than [Troy Hunt]().
 
-\[Update: This service [already exists](). Offered by none other than [Troy Hunt]()\]
+## Implementation
+
+To design my very own PBFaaS (Public Bloom Filters as a Service d'oh), I faced a couple of design decisions. I wanted the service to be fast and scalable. Also implicit in the requirement of such a service being fast is it being computationally cheap.
+
+### Selecting the Hash Function
+
+The secret sauce behind any bloom filter is the hashing function it uses. There are [two classes of hashing functions](): [cryptographic hash functions]() and [non cryptographic hash functions](https://en.wikipedia.org/wiki/List_of_hash_functions#Non-cryptographic_hash_functions). Cryptographic hash functions guarantee certain security benefits such as hard-to-find collisions and are suitable for Information Security. Non-cryptographic functions trade security for speed. Thus they are ideal for Bloom Filters. The function I picked for this project is called Fowler–Noll–Vo (FNV).
+
+### Fowler–Noll–Vo  Hash Function
+
+This is a 32 bit implementation of the FNV hash function
+
+    def fnv1_32(string, seed=0):
+    	"""
+    	Returns: The FNV-1 hash of a given string. 
+    	"""
+    	#Constants
+    	FNV_prime = 16777619
+    	offset_basis = 2166136261
+    
+    	#FNV-1a Hash Function
+    	hash = offset_basis + seed
+    	for char in string:
+    		hash = hash * FNV_prime
+    		hash = hash ^ ord(char)
+    	return hash
+
+Aside from being really fast, it uses a seed, which when changed cheaply generates different hashes. This is useful because multiple hash functions are required to scale the bloom filter.
+
+### Platform
+
+Due to the simple requirements of the service, I decided to go serverless. I implemented my skeleton API on AWS Lambda. For the actual Bloom Filter, I used the persistent storage provided by AWS Lambda itself. This cut down the complexity and more importantly avoided network calls. This gave me a quick and simple solution with really low latency (≈5ms). To provide a front-end I used Amazon's API Gateway. It was trivial to link my Lambda function with the Gateway. It also provided me with (hitherto unused) features like staged rollouts, API authentication and Usage limits.
+
+## Take it for a spin
+
+Here is the curl command to add elements to the Bloom Filter
+
+    curl -i https://5yywisgjji.execute-api.us-east-1.amazonaws.com/prod/dute\?action\=add\&element\=pilot
+
+Here is the curl command to check if an element was previously added.
+
+    curl -i https://5yywisgjji.execute-api.us-east-1.amazonaws.com/prod/dute\?action\=check\&element\=pilot
+
+Here is the response if a filter hit is found
+
+    HTTP/1.1 200 OK
+    Content-Type: application/json
+    Content-Length: 16
+    Connection: keep-alive
+    Date: Mon, 16 Apr 2018 14:11:11 GMT
+    x-amzn-RequestId: 03eb4627-4180-11e8-8e9f-dd939118442c
+    x-amz-apigw-id: FcBH4FyGoAMFjjQ=
+    X-Amzn-Trace-Id: sampled=0;root=1-5ad4aeff-753379e178d4e6446371d874
+    X-Cache: Miss from cloudfront
+    Via: 1.1 b804a121dcbb7cb51fd709903749806e.cloudfront.net (CloudFront)
+    X-Amz-Cf-Id: jzafBEMDYR1hW8rFFwipf7QxNXFSo8gR01xZ5h4ypRb-vfVm4m5PFQ==
+    
+    {"result": true}
