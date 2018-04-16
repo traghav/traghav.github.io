@@ -54,7 +54,7 @@ Aside from being really fast, it uses a seed, which when changed cheaply generat
 
 Due to the simple requirements of the service, I decided to go serverless. I implemented my skeleton API on AWS Lambda. For the actual Bloom Filter, I used the persistent storage provided by AWS Lambda itself. This cut down the complexity and more importantly avoided network calls. This gave me a quick solution with really low latency (≈5ms). To provide a front-end I used Amazon's API Gateway. It was trivial to link my Lambda function with the Gateway. It also provided me with (hitherto unused) features like staged rollouts, API authentication and Usage limits. 
 
-The filter has been designed to provide less than 0.1% false positive rate for upto a million entries and the final latency comes to around 40ms. Improvements on both fronts can be made, however this is a good starting point.
+The filter has been designed to provide less than 0.1% false positive rate for upto a million entries and the final latency comes to ≈40ms. Improvements on both fronts can be made, however this is a good starting point.
 
 ## Take it for a spin
 
