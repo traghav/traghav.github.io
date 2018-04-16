@@ -19,7 +19,7 @@ Public Bloom Filters are exactly like regular bloom filters, aside from the fact
 
 There are a few good reasons to offer a Public Bloom Filter as a service. One application could be ensuring unique usernames across multiple services while ensuring a relatively high degree of anonymity.  If you claim a username on a platform that uses a Public Bloom Filter, you stake your claim on the username for every other platform that uses the same Public Bloom Filter.
 
-Another use could be maintaining a public list of really common or bad passwords and doing a quick lookup to ensure a user does not set it as their own password. To be fair, this service [already exists](). Offered by none other than [Troy Hunt]().
+Another use could be maintaining a public list of really common or bad passwords and doing a quick lookup to ensure a user does not set it as their own password. To be fair, this service [already exists]() ( offered by none other than [Troy Hunt]()).
 
 ## Implementation
 
