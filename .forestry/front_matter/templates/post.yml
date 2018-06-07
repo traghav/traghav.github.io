@@ -1,7 +1,4 @@
 ---
-pages:
-- _posts/2018-02-27-public-bloom-filters.md
-- _posts/2018-02-27-xenia.md
 hide_body: false
 is_partial: false
 fields:
@@ -36,3 +33,7 @@ fields:
   name: permalink
   label: permalink
   description: begin with /
+pages:
+- _posts/i-told-you-so.md
+- _posts/2018-02-27-public-bloom-filters.md
+- _posts/2018-02-27-xenia.md
