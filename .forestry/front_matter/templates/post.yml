@@ -34,6 +34,6 @@ fields:
   label: permalink
   description: begin with /
 pages:
+- _posts/2018-02-27-xenia.md
 - _posts/i-told-you-so.md
 - _posts/2018-02-27-public-bloom-filters.md
-- _posts/2018-02-27-xenia.md
