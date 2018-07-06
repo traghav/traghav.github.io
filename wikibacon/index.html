@@ -1,0 +1,76 @@
+<!DOCTYPE HTML>
+<!--
+Looking under the hood?
+You seem curious. 
+If you have feedback, please revert back to me?
+Cheers.
+-->
+<html>
+	<head>
+		<title>Wiki Bacon</title>
+        <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js"></script>
+        <script src="app.js"></script>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
+		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
+	</head>
+	<body>
+
+		<!-- Header -->
+			<header id="header">
+				<div align="center"><h1>Wiki <font color="#1cb495">Bacon</font></h1></div>
+				<p>Find what links any Wikipedia article to <a href="https://en.wikipedia.org/wiki/Six_Degrees_of_Kevin_Bacon">Kevin Bacon's article</a></p>
+			</header>
+
+
+        <div ng-app="app" ng-controller="AppCtrl">
+
+        <input type="text" ng-model="name" ng-keyup="$event.keyCode == 13 ? varr(name) : null" placeholder="Search">
+            <br>
+        
+          <div align="center"> 
+              <input type="button" ng-model="submit" ng-disabled="loading" value=" Find Links" ng-click="varr(name)" >
+              
+              <input type="button" ng-model="random" ng-disabled="loading" value=" Surprise Me!" ng-click="varr2('fsname')">
+              
+            </div>
+          <div align="center">
+              <img src="images/loading.gif" ng-show="loading" width="30%" height="auto" />
+            <ul>
+            <li ng-repeat="link in links">
+                
+                <a href="{{urls[$index]}}" target="_blank">{{link}}</a>
+            </li></ul>
+              <div ng-if="answer >= 2">
+                  
+                <p>  The degree of seperation between them is {{answer-1}}.</p>
+                </div>
+            </div>
+            
+        </div>
+
+        <br>
+        <br>
+
+		<!-- Footer -->
+			<footer id="footer">
+				<!--<ul class="icons">
+					<li><a href="#" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
+					<li><a href="#" class="icon fa-instagram"><span class="label">Instagram</span></a></li>
+					<li><a href="#" class="icon fa-github"><span class="label">GitHub</span></a></li>
+					<li><a href="#" class="icon fa-envelope-o"><span class="label">Email</span></a></li>
+				</ul> -->
+				<ul class="copyright">
+					<li><a href="about.html">What is this?</a></li><li>Made with <a href="http://flask.pocoo.org/">Flask</a> and <a href="https://angularjs.org/">AngularJS</a></li>
+				</ul>
+			</footer>
+
+		<!-- Scripts -->
+			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>

@@ -1,0 +1,75 @@
+<!DOCTYPE HTML>
+<!--
+Looking under the hood?
+You seem curious. 
+If you have feedback, please revert back to me?
+Cheers.
+-->
+<html>
+	<head>
+		<title>Wiki Bacon</title>
+        <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js"></script>
+        <script src="app.js"></script>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
+		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
+	</head>
+	<body>
+
+		<!-- Header -->
+			<header id="header">
+				<div align="center"><h1>About Wiki <font color="#1cb495">Bacon</font></h1></div>
+                <p>The world is shrinking and we are realizing it everyday.</p>
+				
+			</header>
+
+        <h3><a href="https://en.wikipedia.org/wiki/Six_degrees_of_separation" target="_blank">Six degrees of separation?</a></h3>
+        <p>The theory of Six degrees of separation states that everyone and everything is six or fewer steps away, by way of introduction, from any other person in the world. <a href="https://research.facebook.com/blog/three-and-a-half-degrees-of-separation/">Facebook,</a> recently calculated the average seperation of its users with everyone else on Facebook and found it to be 3.57. On the flip side, <a href="https://en.wikipedia.org/wiki/Dunbar's_number" target="_blank">Dunbar's number,</a> places a cognitive limit on the number stable social relationships one can have. So a fall in the degree of separation is due to an extremely well maintained record of our social connections.</p>
+        <p>Other variants of the "Six degrees of separation" include <a href="https://en.wikipedia.org/wiki/Erd%C5%91s_number" target="_blank">Erdős number</a>, <a href="https://en.wikipedia.org/wiki/Six_Degrees_of_Kevin_Bacon" target="_blank">Bacon Number</a> and even their <a href="https://en.wikipedia.org/wiki/Erd%C5%91s%E2%80%93Bacon_number">sum </a>. They exist because both Academia and Entertainment connections are well documented and relatively popular.</p>
+        <h3>Why the app?</h3>
+        <p>Wikipedia exists as an online repository for a large number of articles covering a vast category of topics. These articles are inter-linked and the links they provide are contextual and relevant. So I made this app in order to calculate the minimum number of links that are needed to be clicked to get to one desired page from any given page by just traversing links. The idea being, traversing these links provides context on not only how the two articles are linked but also how the same two entities are linked in the real world.</p>
+        <p>I selected Kevin Bacon's article as my centre point just because of the readily availible and widely understood context. So I calculate the Wiki Bacon number of any article on Wikipedia.</p>
+        <h3>What I found</h3>
+        <p>Perhaps the most striking thing about the results was that <em>NO</em> article, no matter how obscure and poorly worded, linked to Kevin Bacon's article in 3 or less links. For the sake of scale, when the same experiment was performed in the '90s with the internet, the average number of links between two pages was found to be 17. This goes on to show how convenient it is to draw relationships between entitites with readily availible information. Given there is nothing special about Kevin Bacon's Wikipedia page, this should hold true for any page. The reason to not make this tool work for any Wikipedia article is to quicken response times for requests, as backlinks to Kevin Bacon's page are mined and stored for quick reference.</p>
+        <h3>What Next?</h3>
+        <p>I am studying Wikipedia as a scale-free network. This tool has been a lot of fun to make and use. Hope you have fun using it too. If you have any questions, feedback, or something intersting to say about any of this, <a href="mailto:raghav.toshniwal@gmail.com">please shoot me a line.</a></p>
+        <p></p>
+        <p></p>
+        <p>PS: If the program shows a link but you cannot find it on the page, try searching it in the source-code. They are sometimes hidden in collapsed boxes at the bottom of the page.</p>
+       
+        <br>
+        <br>
+
+		<!-- Footer -->
+			
+				<!--<ul class="icons">
+					<li><a href="#" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
+					<li><a href="#" class="icon fa-instagram"><span class="label">Instagram</span></a></li>
+					<li><a href="#" class="icon fa-github"><span class="label">GitHub</span></a></li>
+					<li><a href="#" class="icon fa-envelope-o"><span class="label">Email</span></a></li>
+				</ul> -->
+				<ul class="copyright">
+					<li><a href="index.html">Back to app | </a></li><li>Made using <a href="http://flask.pocoo.org/">Flask</a> and <a href="https://angularjs.org/">AngularJS</a></li>
+				</ul>
+			
+
+		<!-- Scripts -->
+			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
+			<script src="assets/js/main.js"></script>
+        <!--Analytics-->
+            <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-57678712-3', 'auto');
+  ga('send', 'pageview');
+
+</script>
+
+	</body>
+</html>
