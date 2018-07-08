@@ -1,1 +1,1 @@
-Private repo for perosnla website
+Repo for perosnal website
