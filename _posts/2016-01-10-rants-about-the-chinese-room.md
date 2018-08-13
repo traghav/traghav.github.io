@@ -14,7 +14,5 @@ It's 2016 already and strong AI is not here yet. We should probably get there. T
 ![That's what Newton always needed. A frikkin laser sword.](https://pbs.twimg.com/media/B-yvPu6W4AIR81N.png)
 
 
-We will let that slide. Let Philosophy exist, it helps with intellectual stimulation after all. Question, does philosophy have limits? Logic, maybe? Naah, philosophy ponders about the sound an unobserved tree makes when it falls, if at all. Does not tell you anything about the wave nature of sound but at least makes you question if we are all living in a simulation. Keep 'em existential crises coming. 
-
 
 
