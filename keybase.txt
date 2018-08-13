@@ -1,0 +1,69 @@
+==================================================================
+https://keybase.io/raghavtoshniwal
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://raghav.cc
+  * I am raghavtoshniwal (https://keybase.io/raghavtoshniwal) on keybase.
+  * I have a public key with fingerprint 08B8 5BA0 B83E 2E9F 3F89  6F6F CE01 6233 B428 2379
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "0101760e6f41fdc9f1b01dbcf784ede6562261a536387897e09438172fd05d58ed490a",
+      "fingerprint": "08b85ba0b83e2e9f3f896f6fce016233b4282379",
+      "host": "keybase.io",
+      "key_id": "ce016233b4282379",
+      "kid": "0101760e6f41fdc9f1b01dbcf784ede6562261a536387897e09438172fd05d58ed490a",
+      "uid": "cf4b5d831b829c0be1dece40cacbf919",
+      "username": "raghavtoshniwal"
+    },
+    "service": {
+      "hostname": "raghav.cc",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 1
+  },
+  "ctime": 1534162809,
+  "expire_in": 157680000,
+  "prev": "201e8c9a37e930c14a21117b38b970c16339595deaaf5e6427a61959c849d79d",
+  "seqno": 3,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: Keybase OpenPGP v2.0.77
+Comment: https://keybase.io/crypto
+
+yMIqAnicrVJJaBRBFJ1xiSaiaASFGLfWg+gYu7p6qRpBFAOi4kJUjBgzVFVXT9ok
+3eNMz0wmo7jiRoSoiISg8eLFi4i7UeOGHtw3VAhBQYJLNkRBjUGrXQ6CR+tS/P/f
+e//9z78xtH8gL3gvSOGpKZMywdtXG5OB1evSmaxEXTMjhbNSJf/58SqTJ7xIpW1K
+YUkGMjB0meuWCiyTYQtQGZiUWQZSucl1TVcUHRAN6hAZCBtcxipEwFAsU9ZMDXFT
+xTKRQpJlO1Eej8Vtx/NlEUUaJTJFkCscW9BCWLd0i3EZ6AqEVFWQAg0siBVuwmcI
+c5QkeJHtipwIIj/t/QP/n30nf/WxVKqZCAKKFMxkyoHJGVdlRhi1MPD7JhM87pBq
+LtBxEq0gKc9NVDh2mlRJG0KSKKZsxv39+gP9BSxiTPBjcddzmVsl0hWeF0uEfZqX
+ifm4NKeR3woRajum2KVgpHg8YbuOFAYCyTzblwQaVMVGkIxDEq+J2XEesX2EZuhI
+Fs/vw1NCUpEBRwwTaHAMZQZUogAADAoRxYaIdQixhjWTE2JpXFcVg+hAZBhSsWlg
+U/JnWue4UhgKmyQqJBN21CFeMs6lDdeulA0IBPMCOQP7+TcWyMsd/ufyAkWDA6/m
+mdu7jjTuWnz5XSTb2lr+dLS1ccHSaQ2140ufrexQ369o2sJKd2dOfKp5WPu4ZOex
+HeTLpvzOG6e+du8712yUj8nOPf9t/YSZO1LGkgsfDm1jjenmN4+HH5hzs3/h1M0r
+k/vPfC/unjhi1KhiUhmtfmE1tRTvGdP8dv6MktwBz3cfDy3M3q1tm9s1Inji5a2S
+vpv188fdvjSyvXfIxz20r7N5UU/Og9zo+e4Fzs7JE9ae+b7889LXLReH3i088KKu
+p+55tDSVHtI2/Wz7ofqG+t6ndneNcX27NbbgVtveO1w5vupg+kktKVs2DNWtuXby
+8NnF+bNqClZ1NM1OOo+Obi4ctPV+6LT2AwMvQtM=
+=UDKa
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/raghavtoshniwal
+
+==================================================================
+
