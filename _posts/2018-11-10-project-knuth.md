@@ -119,7 +119,7 @@ For their final project the students decided to make a website for their own cla
 
 It is not the prettiest or nicely designed website by a long shot but the students are pretty invested in maintaining and improving it in the future.
 
-I helped with buying the domain and setting it up on a Dropbox backend. I set it to sync with one of the school laptops. This would take out the friction of dealing with web-hosts and FTP servers. I set it up using [Pancake.io](https://www.pancake.io/), an excellent service that translates static HTML files on Dropbox and serves them up
+I helped with buying the domain and setting it up on a Dropbox backend. I set it to sync with one of the school laptops. This would take out the friction of dealing with web-hosts and FTP servers. I set it up using [Pancake.io](https://www.pancake.io/), an excellent service that translates static HTML files on Dropbox and serves them up.
 
 # Conclusion
 
