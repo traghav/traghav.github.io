@@ -3,7 +3,16 @@ layout: content
 title: Projects
 permalink: /projects/
 ---
+- [Project Knuth](/knuth)
 
+
+<ul class="c-tags">
+  CS I love you
+  <li class="c-tag">Teaching</li>
+  <li class="c-tag">Web Development</li>
+</ul>
+
+----
 - [Podwhat](/podwhat)
 
 
