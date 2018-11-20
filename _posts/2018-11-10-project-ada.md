@@ -1,9 +1,9 @@
 ---
-title: Project Knuth
+title: Project Ada
 date: 2018-11-10
 layout: post
-description: Teaching CS to half a dozen thirteen year old for a month 
-permalink: "/knuth"
+description: Teaching CS to half a dozen thirteen year olds for a month 
+permalink: "/ada"
 undefined: ''
 twitter_text: ''
 ---
