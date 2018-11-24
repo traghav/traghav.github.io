@@ -16,7 +16,7 @@ The kids I taught came from an underprivileged background and had little or no e
 
 Going in, I had a couple of goals:
 
-One was showing them a possibility of exploring Computer Science further. It did not have to be an interest in pursuing a career in technology. If I could even inculcate a passing interest of CS or related fields in them, I would have shown them the light at the end of the proverbial CS tunnel.
+One was showing them a possibility of exploring Computer Science further. It did not have to be an interest in pursuing a career in technology. If I could even inculcate a passing interest of CS or related fields in them, I would have shown them the light at the end of the proverbial tunnel.
 
 Another was giving them a set of basic tools and skills to explore the discipline further. Even personally, I found the biggest challenge to learning CS was getting started. It is still comically hard to setup a basic developer environment to do anything meaningful. Though it is [much](https://scratch.mit.edu/) [easier](https://www.edx.org/course/cs50s-introduction-computer-science-harvardx-cs50x) today than it was when [I was getting started](https://www.bluej.org/).
 
