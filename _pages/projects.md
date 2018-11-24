@@ -3,6 +3,16 @@ layout: content
 title: Projects
 permalink: /projects/
 ---
+- [Tweet Encryptor](https://tweetencryptor.netlify.com)
+
+
+<ul class="c-tags">
+  Encrypt your tweets
+  <li class="c-tag">Cryptography</li>
+  <li class="c-tag">Vue.js</li>
+</ul>
+
+----
 - [Project Ada](/ada)
 
 
