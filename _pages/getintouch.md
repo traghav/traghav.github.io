@@ -8,7 +8,7 @@ Hi, I'm Raghav.
 This is my corner of the interweb. Shoot me a line at [hello@raghav.cc](mailto:hello@raghav.cc). [Here is my PGP Key](/pubkey.text) in case you know what to do with it.
 
 Alternatively, send a message using the form below.
-<div class="hello">
+<div class="hello" style="display:none">
 <form action="https://jumprock.co/mail/raghavtoshniwal" method="post">
 <input type="text" name="email" placeholder="Email/Phone/Some Such" />
 <input type="text" name="trapit" value="" style="display:none">
