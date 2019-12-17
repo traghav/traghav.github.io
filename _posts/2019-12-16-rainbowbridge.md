@@ -1,9 +1,9 @@
 ---
-title: Rainbow Road 🌈
+title: Rainbow Bridge 🌈
 date: 2019-12-16 00:00:00 +0000
 layout: post
 description: Analysing Heimdall — Gojek's HTTP Go Client
-permalink: "/rainbow-road"
+permalink: "/rainbow-bridge"
 undefined: ''
 twitter_text: ''
 
@@ -101,7 +101,7 @@ These results were more palatible. The performance across all 3 runs is near ide
 
 Heimdall is a feature packed HTTP client library and is ideal for use-cases that require higher fault tolerance and more robustness with almost no performance penalty. It is thus also a well suited replacement over Go's native library even in small applications. 
 
-
+The code used for doing this testing is available on [https://github.com/traghav/rainbow-bridge.git](https://github.com/traghav/rainbow-bridge.git)
 
 
 
