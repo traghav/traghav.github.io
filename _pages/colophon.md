@@ -1,7 +1,7 @@
 ---
 layout: content
-title: "⚡ Power"
-permalink: "/power/"
+title: "⚡ Colophon"
+permalink: "/colophon/"
 ---
 # This site is powered by:
 
