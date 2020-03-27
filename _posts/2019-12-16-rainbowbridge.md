@@ -1,5 +1,5 @@
 ---
-title: Rainbow Bridge 🌈
+title: Rainbow Bridge
 date: 2019-12-16 00:00:00 +0000
 layout: post
 description: Analysing Heimdall — Gojek's HTTP Go Client
