@@ -47,4 +47,11 @@
         color: #515862;
     }
 }
-
+@media (prefers-color-scheme: dark) {
+   p {
+        color: $c-base__01__dark !important;
+    }
+    .c-archives__item {
+        border-top: 1px solid $c-headingcolor__dark !important;
+    } 
+}

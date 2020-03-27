@@ -207,14 +207,17 @@ small {
 
     }
     .highlight {
-    background: #002b36 !important;
-    border: 1px solid #353535 !important;
-    color: #93a1a1;
+      background: #002b36 !important;
+      border: 1px solid #353535 !important;
+      color: #93a1a1;
 
-    .gutter {
-        padding: 1.2rem;
-        border-right: 1px solid #353535 !important;
+      .gutter {
+          padding: 1.2rem;
+          border-right: 1px solid #353535 !important;
+      }
+
     }
-
+    .u-separate {
+      color: #fff !important;
     }
 }
