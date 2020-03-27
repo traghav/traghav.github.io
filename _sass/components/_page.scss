@@ -43,3 +43,17 @@
     }
 }
 
+/* Dark mode */
+@media (prefers-color-scheme: dark) {
+    .c-page__header {
+
+        h1 {
+            color: $c-base__02__dark;
+        }
+    }
+    .c-page__footer {
+        p {
+            color: $c-base__01__dark;
+        }
+    }
+}

@@ -69,3 +69,22 @@
     }
 }
 
+/* Dark mode */
+@media (prefers-color-scheme: dark) {
+    .c-tag:hover {
+      background-color: $c-accent__blue__dark;
+      color: white;
+    }
+
+    .c-tag:hover::after {
+       border-left-color: $c-accent__blue__dark;
+    }
+    .c-tag {
+      background: $c-tag__dark;
+    }
+    .c-tag::after {
+      border-left: 10px solid $c-tag__dark;
+      background: $c-bgcolor__dark;
+    }
+
+}

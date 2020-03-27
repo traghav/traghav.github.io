@@ -1,5 +1,7 @@
+
+
 /* ==========================================================================
-   Variabeles
+   Variables
    ========================================================================== */
 
 $c-base__03: #0D2B35;
@@ -13,7 +15,7 @@ $c-base__3: #FCF5E4;
 
 $c-headingcolor: #324472;
 
-$c-bgcolor: #ececec1a;;
+$c-bgcolor: #ececec1a;
 
 $c-accent__blue: #4998e5;
 $c-accent__darkblue: #E86D1F;
@@ -24,3 +26,27 @@ $bp__sm: 45rem; // 450px
 
 // Misc
 $m-border: 1px solid $c-base__2;
+
+/* ==========================================================================
+   Dark Mode Variables
+   ========================================================================== */
+$c-base__03__dark: #0D2B35;
+$c-base__02__dark: #96dcf7; // article title
+$c-base__01__dark: #d8eff8; //date time & body
+$c-base__00__dark: #697B82;
+$c-base__0__dark: #869395;
+$c-base__1__dark: #96A0A0;
+$c-base__2__dark: #EDE7D6;
+$c-base__3__dark: #FCF5E4;
+
+$c-headingcolor__dark: #b7d5f3; //heading colour 
+
+$c-bgcolor__dark: #0f1113; //background colour
+
+$c-accent__blue__dark: #75cef1; //a-links
+$c-accent__darkblue__dark: #1fc2e8;
+$c-accent__green__dark: #A41410;
+
+$c-tag__dark: #2b2b2b;
+
+

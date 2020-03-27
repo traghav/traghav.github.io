@@ -134,3 +134,23 @@
   text-align: right;
 }
 
+
+/* Dark mode */
+@media (prefers-color-scheme: dark) {
+  .c-article__title {
+    color: $c-base__02__dark;
+  }
+  .c-article__main {
+    strong {
+        color: $c-base__02__dark;
+    }
+  }
+  .c-article__time {
+    color: $c-base__01__dark;
+  }
+  .c-article__main {
+    color: $c-base__01__dark;
+  }
+
+}
+

@@ -174,3 +174,47 @@ small {
         color: gray;
 }
 
+
+/* Dark mode */
+@media (prefers-color-scheme: dark) {
+    body {
+        background: $c-bgcolor__dark;
+    }
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+        color: $c-headingcolor__dark;
+    }
+    small {
+        color: $c-base__01__dark;
+    }
+    a {
+        color: $c-accent__blue__dark;
+        &::after {
+          background-color: $c-accent__blue__dark;
+        }
+        &:hover {
+          color: white;
+        }
+    }
+    a.no-hov {
+      &:hover {
+        color: $c-accent__darkblue__dark
+      }
+
+    }
+    .highlight {
+    background: #002b36 !important;
+    border: 1px solid #353535 !important;
+    color: #93a1a1;
+
+    .gutter {
+        padding: 1.2rem;
+        border-right: 1px solid #353535 !important;
+    }
+
+    }
+}
