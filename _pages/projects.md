@@ -3,6 +3,16 @@ layout: content
 title: Projects
 permalink: /projects/
 ---
+- [SplitSearch](http://splitsearch.netlify.app/)
+
+
+<ul class="c-tags">
+  Search liberal and conservative news outlets simultaneously
+  <li class="c-tag">Custom Search Engines</li>
+  <li class="c-tag">Politics</li>
+</ul>
+
+----
 - [Tweet Encryptor](https://tweetencryptor.netlify.com)
 
 
