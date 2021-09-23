@@ -49,14 +49,6 @@ permalink: /projects/
   <li class="c-tag">Python</li>
 </ul>
 
-----
-- [HNCity](http://hackernews.city)
-
-<ul class="c-tags">
-  Tool to organize HackerNews meetups in your city
-  <li class="c-tag">React</li>
-  <li class="c-tag">Firebase</li>
-</ul>
 
 ----
 - [Public Bloom Filters](/publicbloomfilters)
@@ -67,20 +59,10 @@ permalink: /projects/
 
 </ul>
 
-----
-
-- [I Told You So](http://itoldyouso.fun)
-
-
-<ul class="c-tags">
-  Etch your predictions in the Blockchain
-  <li class="c-tag">Web3</li>
-  <li class="c-tag">React</li>
-</ul>
 
 ----
 
-- [PotatoCoin](http://potatoco.in/)
+- [PotatoCoin](http://potatochain.org/)
 
 <ul class="c-tags">
   A Crypto Token backed by actual Potatoes
