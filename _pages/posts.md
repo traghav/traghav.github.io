@@ -1,0 +1,27 @@
+---
+layout: page
+title: Posts
+permalink: "/posts/"
+---
+
+<section class="c-archives">
+    <h2 class="c-archives__year" id="{{ this_year }}-ref">Posts</h2>
+{% for post in site.posts  %}
+    {% capture this_year %}{{ post.date | date: "%Y" }}{% endcapture %}
+    {% capture next_year %}{{ post.previous.date | date: "%Y" }}{% endcapture %}
+
+    
+        
+        <ul class="c-archives__list">
+    
+        <li class="c-archives__item">
+            <h3>
+              <a href="{{ post.url | prepend: site.baseurl }}">{{post.title}}</a>
+              <br>
+              <small>{{post.description}}</small>
+            </h3>
+            <p>{{ post.date | date: "%b %-d, %Y" }}</p>
+        </li>
+        </ul>
+{% endfor %}
+</section>
