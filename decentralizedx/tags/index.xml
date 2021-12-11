@@ -12,6 +12,61 @@
     
     
     <item>
+      <title>Decentralized Food Delivery Service</title>
+      <link>https://raghav.cc/decentralizedx/posts/food/</link>
+      <pubDate>Sun, 10 Oct 2021 19:45:38 +0530</pubDate>
+      
+      <guid>https://raghav.cc/decentralizedx/posts/food/</guid>
+      <description>&lt;h2 id=&#34;all-the-pieces&#34;&gt;All the Pieces&lt;/h2&gt;
+&lt;p&gt;Here are all the pieces required to operate a food delivery service:&lt;/p&gt;
+&lt;h4 id=&#34;client-apps&#34;&gt;Client App(s)&lt;/h4&gt;
+&lt;p&gt;This is required for discovery of all the restaurants/food providers around the area. They integrate checkout/payment options and provide order flow, they differentiate on the basis of selection they offer and the partners they integrate on the back-end&lt;/p&gt;
+&lt;h4 id=&#34;listing-partners&#34;&gt;Listing Partners&lt;/h4&gt;
+&lt;p&gt;They are responsible for aggregating restaurant information on-ground. Restaurant KYC, Menu creation, Price listing are all done in accordance to protocols. They get paid by client apps for sharing their information. They differentiate on the basis of the depth + quality of their catalog.&lt;/p&gt;
+&lt;h4 id=&#34;logistics-providers&#34;&gt;Logistics Providers&lt;/h4&gt;
+&lt;p&gt;They provide A -&amp;gt; B logistics between restaurants and users. These are the easiest to imagine as many of them already exist. They get paid by the client app for providing this service. They differentiate on the basis of&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Party&lt;/th&gt;
+&lt;th&gt;Responsibility&lt;/th&gt;
+&lt;th&gt;Primary User&lt;/th&gt;
+&lt;th&gt;Differentiated on&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;Client Apps&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;Discovery of restaurants in the area, integrate payment/checkout options&lt;/td&gt;
+&lt;td&gt;End User&lt;/td&gt;
+&lt;td&gt;Selection they provide, how they market&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;Listing Partners&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;Aggregate restaurant information on ground such as Restaurant info, menu, prices&lt;/td&gt;
+&lt;td&gt;Client Apps&lt;/td&gt;
+&lt;td&gt;Depth + Quality of their catalog&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;Logistics Providers&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;Provide A -&amp;gt; B logistics between restaurants and users&lt;/td&gt;
+&lt;td&gt;Client Apps&lt;/td&gt;
+&lt;td&gt;Quality + Speed of service&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;Restaurant PoS&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;Provides order information to restaurants&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+</description>
+    </item>
+    
+    
+    
+    <item>
       <title>Hello World</title>
       <link>https://raghav.cc/decentralizedx/posts/hello-world/</link>
       <pubDate>Sat, 25 Sep 2021 19:45:38 +0530</pubDate>
