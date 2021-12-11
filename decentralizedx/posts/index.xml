@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on Decenteralized X</title>
+    <link>https://raghav.cc/decentralizedx/posts/</link>
+    <description>Recent content in Posts on Decenteralized X</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 25 Sep 2021 19:45:38 +0530</lastBuildDate>
+    
+	<atom:link href="https://raghav.cc/decentralizedx/posts/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    
+    <item>
+      <title>Hello World</title>
+      <link>https://raghav.cc/decentralizedx/posts/hello-world/</link>
+      <pubDate>Sat, 25 Sep 2021 19:45:38 +0530</pubDate>
+      
+      <guid>https://raghav.cc/decentralizedx/posts/hello-world/</guid>
+      <description>&lt;h1 id=&#34;what-is-decenter&#34;&gt;What is Decenter?&lt;/h1&gt;
+&lt;p&gt;Decentralization is breaking my brain.&lt;/p&gt;
+&lt;p&gt;Here is an attempt to understand decentralization and its consequences. In this blog, I will try to untangle what decentralization means, how is it different from centralized systems.&lt;/p&gt;
+</description>
+    </item>
+    
+    
+  </channel>
+</rss>
